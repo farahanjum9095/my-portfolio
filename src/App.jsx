@@ -168,36 +168,52 @@ export default function Portfolio() {
             <div className="group bg-slate-800/50 rounded-lg border border-slate-700 hover:border-cyan-400/50 transition-all">
               <div className="p-6">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-2xl font-bold text-slate-200">Financial Data Aggregator</h3>
+                  <h3 className="text-2xl font-bold text-slate-200">Full-Stack Wealth Management Portal</h3>
                   <ExternalLink size={20} className="text-slate-400 group-hover:text-cyan-400 transition-colors" />
                 </div>
-                <p className="text-slate-400 mb-4">A comprehensive data pipeline system that ingests, processes, and analyzes financial market data from multiple sources with real-time normalization and visualizations.</p>
+                <p className="text-slate-400 mb-4">Built a financial dashboard for users to track assets, set investment goals, and view real-time portfolio distributions. Implemented secure authentication, optimized DB queries, and created automated tests to ensure high reliability.</p>
+                <ul className="list-disc list-inside text-slate-400 mb-4">
+                  <li>Secure user authentication and authorization for sensitive financial data</li>
+                  <li>Responsive UI with Tailwind CSS for mobile and desktop</li>
+                  <li>Database optimization and caching for faster data retrieval</li>
+                  <li>Automated test suites achieving ~95% coverage</li>
+                </ul>
                 <div className="flex flex-wrap gap-2">
-                  {['Python', 'SQL', 'Pandas', 'REST APIs'].map(t => <span key={t} className="px-3 py-1 bg-cyan-400/10 text-cyan-400 rounded-full text-xs">{t}</span>)}
+                  {['React', 'Node.js', 'Express', 'PostgreSQL', 'JWT'].map(t => <span key={t} className="px-3 py-1 bg-cyan-400/10 text-cyan-400 rounded-full text-xs">{t}</span>)}
                 </div>
               </div>
             </div>
             <div className="group bg-slate-800/50 rounded-lg border border-slate-700 hover:border-cyan-400/50 transition-all">
               <div className="p-6">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-2xl font-bold text-slate-200">Task & Sprint Management System</h3>
+                  <h3 className="text-2xl font-bold text-slate-200">Next.js Client Onboarding Engine</h3>
                   <ExternalLink size={20} className="text-slate-400 group-hover:text-cyan-400 transition-colors" />
                 </div>
-                <p className="text-slate-400 mb-4">A lightweight sprint-based task tracking system for agile teams with Excel-based persistence for easy data portability.</p>
+                <p className="text-slate-400 mb-4">Developed a multi-step onboarding wizard to streamline KYC data collection, leveraging Next.js SSR for improved performance and implementing complex form validation to reduce data entry errors.</p>
+                <ul className="list-disc list-inside text-slate-400 mb-4">
+                  <li>Multi-step onboarding wizard with form validation (Formik)</li>
+                  <li>Next.js SSR to improve initial page load and SEO</li>
+                  <li>Real-time input validation and accessibility improvements</li>
+                </ul>
                 <div className="flex flex-wrap gap-2">
-                  {['Java', 'Excel', 'Agile'].map(t => <span key={t} className="px-3 py-1 bg-cyan-400/10 text-cyan-400 rounded-full text-xs">{t}</span>)}
+                  {['Next.js', 'TypeScript', 'Tailwind', 'Formik'].map(t => <span key={t} className="px-3 py-1 bg-cyan-400/10 text-cyan-400 rounded-full text-xs">{t}</span>)}
                 </div>
               </div>
             </div>
             <div className="group bg-slate-800/50 rounded-lg border border-slate-700 hover:border-cyan-400/50 transition-all">
               <div className="p-6">
                 <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-2xl font-bold text-slate-200">Explore India Travel Platform</h3>
+                  <h3 className="text-2xl font-bold text-slate-200">Cloud-Native Deployment & Monitoring Platform</h3>
                   <ExternalLink size={20} className="text-slate-400 group-hover:text-cyan-400 transition-colors" />
                 </div>
-                <p className="text-slate-400 mb-4">A travel discovery and booking platform with curated itineraries and integrated third-party service connections.</p>
+                <p className="text-slate-400 mb-4">Designed and deployed a cloud-native platform on AWS EC2 using Docker, added CI/CD pipelines with GitHub Actions, and integrated Datadog for centralized logging and monitoring.</p>
+                <ul className="list-disc list-inside text-slate-400 mb-4">
+                  <li>Dockerized services and automated deployments with GitHub Actions</li>
+                  <li>Centralized logging & monitoring with Datadog</li>
+                  <li>Automated workflows to improve release reliability</li>
+                </ul>
                 <div className="flex flex-wrap gap-2">
-                  {['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'].map(t => <span key={t} className="px-3 py-1 bg-cyan-400/10 text-cyan-400 rounded-full text-xs">{t}</span>)}
+                  {['AWS EC2', 'Docker', 'GitHub Actions', 'Datadog', 'Node.js'].map(t => <span key={t} className="px-3 py-1 bg-cyan-400/10 text-cyan-400 rounded-full text-xs">{t}</span>)}
                 </div>
               </div>
             </div>
