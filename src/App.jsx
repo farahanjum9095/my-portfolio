@@ -57,7 +57,7 @@ export default function Portfolio() {
 
       <section id="home" className="min-h-screen flex items-center justify-center px-6 pt-20">
         <div className="max-w-4xl">
-          <p className="text-cyan-400 font-mono text-sm mb-5">Hi, my name is</p>
+          {/* <p className="text-cyan-400 font-mono text-sm mb-5">Hi, my name is</p> */}
           <h1 className="text-5xl md:text-7xl font-bold text-slate-200 mb-4">Farah Anjum</h1>
           <h2 className="text-3xl md:text-5xl font-bold text-slate-400 mb-6">I build scalable software systems.</h2>
           <p className="text-lg text-slate-400 max-w-2xl mb-8">I'm a Software Engineer specializing in full-stack development, database optimization, and building reliable enterprise applications. Currently focused on creating accessible, user-centered digital experiences.</p>
@@ -71,7 +71,7 @@ export default function Portfolio() {
       <section id="about" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-4xl mx-auto">
           <h2 className="flex items-center gap-4 text-3xl font-bold text-slate-200 mb-8">
-            <span className="text-cyan-400 font-mono text-2xl">01.</span>About Me<span className="flex-1 h-px bg-slate-700"></span>
+            <span className="text-cyan-400 font-mono text-2xl"></span>About Me<span className="flex-1 h-px bg-slate-700"></span>
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div className="space-y-4 text-slate-400">
@@ -99,14 +99,14 @@ export default function Portfolio() {
       <section id="experience" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-4xl mx-auto w-full">
           <h2 className="flex items-center gap-4 text-3xl font-bold text-slate-200 mb-8">
-            <span className="text-cyan-400 font-mono text-2xl">02.</span>Where I've Worked<span className="flex-1 h-px bg-slate-700"></span>
+            <span className="text-cyan-400 font-mono text-2xl"></span>EXPERIENCE<span className="flex-1 h-px bg-slate-700"></span>
           </h2>
           <div className="space-y-8">
             <div className="group">
               <div className="bg-slate-800/50 p-6 rounded-lg border border-slate-700 hover:border-cyan-400/50 transition-all">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                   <h3 className="text-xl font-bold text-slate-200">Full Stack Developer (Co-op) <span className="text-cyan-400">@ BookMyHelp</span></h3>
-                  <p className="text-sm text-slate-400 mt-2 md:mt-0">Sep 2024 – Dec 2024</p>
+                  <p className="text-sm text-slate-400 mt-2 md:mt-0">Sep 2025 – Dec 2025</p>
                 </div>
                 <p className="text-sm text-cyan-400 mb-4">Toronto, Canada</p>
                 <ul className="space-y-2 text-slate-400">
@@ -162,7 +162,7 @@ export default function Portfolio() {
       <section id="projects" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-4xl mx-auto w-full">
           <h2 className="flex items-center gap-4 text-3xl font-bold text-slate-200 mb-8">
-            <span className="text-cyan-400 font-mono text-2xl">03.</span>Things I've Built<span className="flex-1 h-px bg-slate-700"></span>
+            <span className="text-cyan-400 font-mono text-2xl"></span>PROJECTS<span className="flex-1 h-px bg-slate-700"></span>
           </h2>
           <div className="space-y-8">
             <div className="group bg-slate-800/50 rounded-lg border border-slate-700 hover:border-cyan-400/50 transition-all">
@@ -208,7 +208,7 @@ export default function Portfolio() {
       <section id="skills" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-4xl mx-auto w-full">
           <h2 className="flex items-center gap-4 text-3xl font-bold text-slate-200 mb-8">
-            <span className="text-cyan-400 font-mono text-2xl">04.</span>Skills & Technologies<span className="flex-1 h-px bg-slate-700"></span>
+            <span className="text-cyan-400 font-mono text-2xl"></span>Skills & Technologies<span className="flex-1 h-px bg-slate-700"></span>
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             {[
@@ -233,7 +233,7 @@ export default function Portfolio() {
       <section id="research" className="min-h-screen flex items-center px-6 py-20">
         <div className="max-w-4xl mx-auto w-full">
           <h2 className="flex items-center gap-4 text-3xl font-bold text-slate-200 mb-8">
-            <span className="text-cyan-400 font-mono text-2xl">05.</span>Research & Innovation<span className="flex-1 h-px bg-slate-700"></span>
+            <span className="text-cyan-400 font-mono text-2xl"></span>Research & Innovation<span className="flex-1 h-px bg-slate-700"></span>
           </h2>
           <div className="bg-slate-800/50 p-8 rounded-lg border border-slate-700">
             <div className="mb-6">
